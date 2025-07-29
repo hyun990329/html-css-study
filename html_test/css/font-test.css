@@ -1,0 +1,12 @@
+.container {
+  /* 폰트 기본 크기 : 16px */
+  font-size: 22px;
+  /* 폰트 기본 두께 : 400 */
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  word-break: keep-all;
+  letter-spacing: 5;
+}
