@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/과제2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <fieldset>
+  <h1>프런트엔드 개발자 지원서</h1>
+  <h4>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다</h4>
+  <hr>
+  <h4>개인정보</h4>
+  <ul>
+          <li>
+            <label for="name">이름</label>
+            <input type="text" id="name" autofocus placeholder="공백 없이 입력해주세요">
+          </li>
+          <li>
+            <label for="call">연락처</label>
+            <input type="number" id="call">
+          </li>
+  </ul>
+  <h4>지원분야</h4>
+        <input type="radio" name="area" id="webP" checked>
+        <label for="webP">웹 퍼블리싱</label> <br>
+        <input type="radio" name="area" id="webA" checked>
+        <label for="webA">웹 애플리케이션 개발</label> <br>
+        <input type="radio" name="area" id="webG" checked>
+        <label for="webG">개발 환경 개선</label> <br>
+
+  <h4>지원 동기</h4>
+            <textarea id="memo" name="memo" placeholder="본사 지원 동기를 간략히 써주세요" cols="65" rows="6"></textarea>
+
+      <div class="buttons">
+        <input type="submit" value="접수하기">
+        <input type="reset" value="다시쓰기">
+      </div>
+  </fieldset>
+  </div>
+</body>
+</html>

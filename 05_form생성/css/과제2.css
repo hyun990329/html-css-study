@@ -19,31 +19,13 @@ ul li {
 }
 
 li label {
-  width: 120px;
   font-weight: bold;
-  line-height: 35px;
+   width: 50px;
 }
 
 input[type="text"], 
-input[type="password"],
-input[type="email"],
+input[type="number"],
 select {
   width: 300px;
   height: 25px;
-}
-.buttons {
-  width: 400px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.buttons input {
-  width: 150px;
-  height: 40px;
-  font-size: 18px;
-}
-
-.buttons input:hover {
-  background-color: bisque;
-  color: #000;
 }
